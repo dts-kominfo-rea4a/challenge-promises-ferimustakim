@@ -3,7 +3,7 @@ const { promiseTheaterIXX, promiseTheaterVGC } = require("./external.js");
 // TODO: Buat fungsi promiseOutput sesuai ketentuan readme
 //const promiseOutput = null;
 
-  const promiseOutput = async (emosi) => {
+const promiseOutput = async (emosi) => {
     let Theater_IXX = await promiseTheaterIXX();
     let Theater_VGC = await promiseTheaterVGC();
     
@@ -17,7 +17,7 @@ const { promiseTheaterIXX, promiseTheaterVGC } = require("./external.js");
         reject("err");
       }
     })
-  };
+};
     
     
 
